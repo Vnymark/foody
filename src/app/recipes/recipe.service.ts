@@ -34,6 +34,10 @@ export class RecipeService {
     // Using slice to get a copy, instead of the actual array.
     return this.recipes.slice();
   }
+    // For child routing the recipes.
+  getRecipe(id: number) {
+    return this.recipes[id];
+  }
 
   addIngredientsToShoppingList(ingredients: Ingredient[]) {
     this.slService.addIngredients(ingredients);
