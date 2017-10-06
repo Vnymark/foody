@@ -1,7 +1,7 @@
 # Foody
 
 #### A website for recipes, ingredients and a shopping list.
-#### Hosted with Firebase with a Firebase backend connected to the recipes, but not the shopping list.
+#### Hosted with a Firebase backend connected to the recipes, but not the shopping list.
 
 ## To Do
 #### At the moment the project is built around Bootstrap and have to use Jquery to get a working navbar on mobile devices. A better solution would be to rebuild the project around ng-bootstrap (or build it manually, instead of using Jquery).
